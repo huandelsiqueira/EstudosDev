@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*font-family: 'Passion One', cursive;*/
+/*font-family: 'Sriracha', cursive;*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 250px;
+    margin: none;
+    padding: none;
+}
+
+header > h1 {
+    margin: 0px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 20vh;
+    font-variant: small-caps;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
