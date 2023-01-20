@@ -30,34 +30,92 @@
 
 header {
     background-color: #0d3968;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;   
-    height: 232px;
+    color: white;
     text-align: center;
-    padding-top: 25px;
+}
+
+header > h1 {
+    padding-top: 30px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-size: 15vh;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+header > nav {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header > nav > a {
+    background-color: #82C9E8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px;
+    transition-duration: 0.5s;
+    margin-right: 10px;
+}
+
+header > nav > a:hover {
+    background-color: #ffffff;
+    color: #82C9E8;
+    border-radius: 10 px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+/*-Configuração usada anteriormente, mas sem responsividade.
+
+header {
+    background-color: #0d3968;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: white;   
+    height: 41.4vh;
+    text-align: center;
     box-shadow: 0px 2px 11px #33505c81
 }
 
 header > div > h1 {
+    display: block;
+    padding-top: 40px;
     font-family: 'Bebas Neue';
-    font-size: 3.5em;
+    font-size: 10vh;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.041);
 }
 
 header > div > img {
     margin: auto;
-    padding-top: 10px ;
+    width: 40vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header > div > p {
-    padding-top: 20px;
-    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 2.8vh;
     font-weight: bold;
 }
 
 header > nav {
     display: block;
-    padding-top: 63px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80vh;
     padding-left: 6px;
     text-align: left;
     
@@ -78,10 +136,12 @@ header > nav > a:hover {
     background-color: #ffffff;
     color: #82C9E8;
     border-radius: 10 px;
-    padding: 15px;
-}
+    padding: 15px; 
+} */
+
 
 body {
+    min-height: 100vh;
     background-color: #D8E2E8;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -145,8 +205,8 @@ aside#fotoayrton {
 
 img.ayrton1 {
     display: block;
-    width: 300px;
-    height: 338px;
+    width: 56vh;
+    height: 60vh;
     margin: 0px;
     padding: 10px;
     margin-left: auto;
@@ -186,7 +246,7 @@ aside#texto2 {
 img.kart {
     display: block;
     max-width: 102.3%;
-    min-width: 500px;
+    min-width: 100.3%;
     margin: auto;
     padding: 0px;
     margin-left: -14px;
