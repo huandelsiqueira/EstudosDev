@@ -86,9 +86,8 @@ footer > p {
 img.kart {
     display: block;
     max-width: 100.3%;
-    min-width: 500px;
-    margin: 0px;
-    margin-top: 15px;   
+    min-width: 98.3%;
+    margin: auto;
     padding: 0px;
     margin-left: -1px;
     margin-right: 0px;
